@@ -1,4 +1,6 @@
 site_name: Iven's Wiki
+repo_url: https://github.com/timothy020/MkDocs.git
+repo_name: 'timothy020/MkDocs'
 theme:
   name: material
   features:
