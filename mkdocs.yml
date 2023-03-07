@@ -29,4 +29,31 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
 
+extra_javascript:
+  - js/katex.min.js
+  - js/mathtex-script-type.min.js
+  - js/copy-tex.min.js
+  - js/auto-render.min.js
+  - js/jquery-3.4.1.min.js # 定制jQuery函数
+  - js/d3.min.js
+  - js/d3-flextree.js
+  - js/view.mindmap.js
+  - js/emoji.min.js # 显示emoji
+  - js/mermaid.min.js # Mermaid UML
+  - js/highlight.pack.js # 代码高亮
+  # 访问量统计
+  # - https://cdn1.lncld.net/static/js/av-min-1.5.0.js
+  # - https://jerryz.sgp1.cdn.digitaloceanspaces.com/lib/hit-kounter/hit-kounter-lc-0.3.0.js
+  - js/extra.js # 渲染未被mathJax捕捉的公式，渲染思维导图
+  - js/readingtime.js # 显示阅读时间
+
+extra_css:
+  - css/katex.min.css
+  - css/copy-tex.min.css
+  - css/view.mindmap.css
+  - css/highlight-default.css # 代码高亮主题
+  # - css/atom-one-dark-reasonable.css # 代码高亮主题
+  - css/font-awesome-all.min.css # font-awesome 图标
+  - css/emoji.css # 显示emoji
+  - css/extra.css
 
