@@ -1,0 +1,32 @@
+site_name: Iven's Wiki
+theme:
+  name: material
+  features:
+    # - navigation.tracking
+    - navigation.tabs
+    - navigation.path
+    - navigation.top
+    - toc.follow
+    - content.code.copy
+
+nav: 
+  - 主页: index.md
+  - 函数:
+    - c++: 
+      - 模板: ./testfile/test.md
+    - java: ./testfile/test2.md
+    - python: ./testfile/test3.md
+  - 关于我: about.md
+
+markdown_extensions:
+  - toc:
+        anchorlink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+
